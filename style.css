@@ -1,0 +1,158 @@
+body{
+    background: linear-gradient(135deg, #1a1a1b, #414141 25%, #141614 50%, #3e403e 75%, #1a1b1b);
+}
+.back{
+    align-items: center;
+    background-image: url('free-photo-of-close-up-of-wall-surface-in-black-and-white.jpeg'); 
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.back2{
+    font-size: x-large;
+    align-items: center;
+    background-image: url('g2.webp'); 
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color:gold
+    
+}
+
+
+h1, h2 {
+    background-color: whitesmoke;
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+}
+
+
+h1 {
+    font-size: 60px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+h2 {
+    text-indent: 40px;
+    font-size: 32px;
+    margin-left: 70px;
+    margin-bottom: 60px;
+    width: 1300px;
+}
+section{
+    display: grid;
+}
+
+.hidden{
+    size: 10%;
+opacity: 0;
+transition: all 1.5s;
+filter: blur(7px);
+transform: translateY(200px);
+}
+
+.hiddenlx, .hiddenrx, .hiddenyd {
+    opacity: 0;
+    transition: all 1s ease-out;
+
+}
+h1.hiddenlx, h1.hiddenrx, h1.hiddenyd {
+    opacity: 0;
+    transition: all 1s ease-out;
+    display: inline-block;
+}
+
+h2.hiddenlx, h2.hiddenrx, h2.hiddenyd {
+    opacity: 0;
+    transition: all 1s ease-out;
+    display: inline-block;
+}
+
+
+.hiddenlx {
+    transform: translateX(-120px);
+}
+
+
+
+
+.hiddenrx {
+    transform: translateX(120px);
+}
+
+.hiddenyd {
+    transform: translateY(80px);
+}
+
+.show{
+opacity: 1;
+transform: translateY(0) translateX(0);
+filter: none;
+}
+
+
+
+
+.bi1{
+    padding-right: 50px;
+    
+    color: azure;
+}
+.left-image {
+    float: left;
+    margin-bottom: 0px;
+}
+.right-image {
+    float: right;
+    margin-bottom: 0px;
+}
+
+h3{
+    font-size: x-large;
+    text-decoration: solid underline;
+}
+
+h3.news{
+    font-size: 35px;
+    text-decoration: solid underline;
+    font-weight: 900;
+
+}
+.bi2{
+    padding-left: 30px;
+
+}
+
+
+
+.bi3, .bi1, .bi2{
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    color: azure;
+}
+
+p{
+    margin-left: 30px;
+}
+
+
+.intro{
+    padding-left: 50px;
+    color: azure;
+    text-indent: 70px;
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    
+}  
